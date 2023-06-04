@@ -1,0 +1,20 @@
+Package: PDACdecon
+Title: Create Profile Matrix for SpatialDecon from CellDive Data
+Version: 1.0.0
+Authors@R: 
+    person("Weifeng", "Hong", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Create Profile Matrix for SpatialDecon from CellDive Data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: AnnotationDbi, stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: R (>= 2.10)
+NeedsCompilation: no
+Packaged: 2023-06-02 22:30:05 UTC; Dell
+Author: Weifeng Hong [aut, cre] (YOUR-ORCID-ID)
+Maintainer: Weifeng Hong <first.last@example.com>
